@@ -1,0 +1,16 @@
+#
+# Author        :Julio Sanz
+# Website       :www.elarraydejota.com
+# Email         :juliojosesb@gmail.com
+# Tested in     :Debian Wheezy/Jessie
+# Description   :Format conversor
+# Dependencies  :libav-tools
+# Usage         :Drag and drop the file you want to convert
+# License       :GPLv3
+#
+
+[Desktop Entry]
+Name=to_wav
+Exec=bash -c "$(dirname %k)/scripts/to_wav.sh %U"
+Terminal=true
+Type=Application
