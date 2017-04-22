@@ -3,7 +3,7 @@ Easy avconv
 
 [Avconv](https://libav.org/) is a useful utility to record video and audio. It also can convert multiple video/audio formats. In this repository I have included a script to record audio/video and multiple desktop drag and drop items to convert formats.
 
-##Usage
+## Usage
 
 * The script to record audio and video is called **avconv_recording.sh** and it is in the main folder of the repo. If you record audio, the file generated will be put in the folder **recorded_audio**. Needless to say, if you record video, the file will be put in **recorded_video**. 
 
@@ -15,7 +15,7 @@ Easy avconv
 
 * There are also drag and drop items you can use to convert mp4, extract audio from them... the output files will be also added under the converted folder.
 
-##Compatibility and dependencies
+## Compatibility and dependencies
 
 Works only in Gnome using desktop items. You will need to have avconv installed either from libav-tools package or compiled by yourself.
 
