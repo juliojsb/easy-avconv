@@ -24,7 +24,7 @@ video_framerate="60"
 video_folder="recorded_video"
 audio_folder="recorded_audio"
 recording_file="$1_$(date +%Y%m%d%S).${format}"
-display=":0.0"
+v_display="$DISPLAY"
 
 #
 # FUNCTIONS
@@ -36,7 +36,7 @@ record_mp4(){
 		-f x11grab \
 		-r $video_framerate \
 		-s $resolution \
-		-i $display \
+		-i $v_display \
 		-vcodec libx264 \
 		-preset ultrafast \
 		-threads 4 \
